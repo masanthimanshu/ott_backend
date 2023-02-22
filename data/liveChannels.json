@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a110477e-11ee-4e6d-9979-4ec75dcaebd1",
+    "name": "ABC Studios",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1100/661100-h",
+    "embedCode": "rqoBNKVpFU0"
+  },
+  {
+    "id": "def77962-ce6c-4f25-952d-b1d6063e7770",
+    "name": "Asianet",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1103/661103-h",
+    "embedCode": "rqoBNKVpFU0"
+  },
+  {
+    "id": "61208d87-b0aa-461c-a9a5-58e6ca96c6d1",
+    "name": "Star Sports 1 ",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1167/661167-h",
+    "embedCode": "rqoBNKVpFU0"
+  },
+  {
+    "id": "90af14f9-6a9b-452e-9f37-ace1ac0254f4",
+    "name": "Star Plus",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1132/661132-h",
+    "embedCode": "rqoBNKVpFU0"
+  },
+  {
+    "id": "d2bbd964-7287-4ad4-8e04-2eb5bd51b00f",
+    "name": "Star World",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1138/661138-h",
+    "embedCode": "rqoBNKVpFU0"
+  },
+  {
+    "id": "d74e9559-8825-4279-b090-203edee7cbc8",
+    "name": "HBO Original",
+    "category": "live_channel",
+    "image": "https://img1.hotstarext.com/image/upload/sources/r1/cms/prod/1105/661105-h",
+    "embedCode": "rqoBNKVpFU0"
+  }
+]

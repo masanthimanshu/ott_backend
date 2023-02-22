@@ -1,0 +1,49 @@
+{
+  "home": {
+    "id": "773c29c4-e026-4ebd-a48e-df9f3248c87e",
+    "name": "Pathaan",
+    "category": "top_card",
+    "image": "/images/poster0.png",
+    "embedCode": "vqu4z34wENw"
+  },
+
+  "shows": {
+    "id": "b5b2974a-d070-4b71-9096-2f76c3934a54",
+    "name": "Flames Season 2",
+    "category": "top_card",
+    "image": "/images/poster1.png",
+    "embedCode": "ouyrvRJ6-3M"
+  },
+
+  "movies": {
+    "id": "237647cc-4984-4c95-b482-cb1fcfd87c97",
+    "name": "URI",
+    "category": "top_card",
+    "image": "/images/poster2.png",
+    "embedCode": "VVY3do673Zc"
+  },
+
+  "news": {
+    "id": "d14c371b-3155-4141-9bea-ab48c8ec9ddd",
+    "name": "Gravitas Plus",
+    "category": "top_card",
+    "image": "/images/poster3.png",
+    "embedCode": "rqoBNKVpFU0"
+  },
+
+  "kids": {
+    "id": "31d2f068-8bd9-4e6a-8606-1f1335239dd1",
+    "name": "Chota Bheem",
+    "category": "top_card",
+    "image": "/images/poster4.png",
+    "embedCode": "19GCZPtLxdE"
+  },
+
+  "music": {
+    "id": "cbe94841-73cf-4349-a65e-e2a627cd14be",
+    "name": "Ghana Kasoota",
+    "category": "top_card",
+    "image": "/images/poster5.png",
+    "embedCode": "u0Y3EHuMktE"
+  }
+}
