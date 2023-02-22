@@ -1,10 +1,12 @@
 import { Router } from "express";
-import cards from "../data/cards.json" assert { type: "json" };
-import topCard from "../data/topCard.json" assert { type: "json" };
-import featured from "../data/featured.json" assert { type: "json" };
-import channels from "../data/liveChannels.json" assert { type: "json" };
+import { readFileSync } from "node:fs";
 
 export const categoryRouter = Router();
+
+const cards = JSON.parse(readFileSync("data/cards.json"));
+const topCard = JSON.parse(readFileSync("data/topCard.json"));
+const featured = JSON.parse(readFileSync("data/featured.json"));
+const channels = JSON.parse(readFileSync("data/liveChannels.json"));
 
 categoryRouter.get("/:category", (req, res) => {
   const { category } = req.params;
