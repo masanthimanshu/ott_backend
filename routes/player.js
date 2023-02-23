@@ -1,9 +1,7 @@
 import { Router } from "express";
-import { readFileSync } from "node:fs";
+import { allData } from "../middleware/exportData.js";
 
 export const playerRouter = Router();
-
-const allData = JSON.parse(readFileSync("data/allData.json"));
 
 playerRouter.get("/data/:id", (req, res) => {
   const { id } = req.params;

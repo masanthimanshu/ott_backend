@@ -1,8 +1,6 @@
+import { playerRouter, categoryRouter } from "./routes/routes.js";
 import express from "express";
 import cors from "cors";
-
-import { playerRouter } from "./routes/player.js";
-import { categoryRouter } from "./routes/category.js";
 
 const port = process.env.PORT || 5000;
 const app = express();

@@ -1,12 +1,12 @@
 import { Router } from "express";
-import { readFileSync } from "node:fs";
+import {
+  cards,
+  topCard,
+  featured,
+  channels,
+} from "../middleware/exportData.js";
 
 export const categoryRouter = Router();
-
-const cards = JSON.parse(readFileSync("data/cards.json"));
-const topCard = JSON.parse(readFileSync("data/topCard.json"));
-const featured = JSON.parse(readFileSync("data/featured.json"));
-const channels = JSON.parse(readFileSync("data/liveChannels.json"));
 
 categoryRouter.get("/:category", (req, res) => {
   const { category } = req.params;
